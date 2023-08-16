@@ -1,5 +1,3 @@
-# Atividade1
-Atividade envolvendo as variaveis de letra e numero
 #include<stdio.h>
 
 
@@ -39,7 +37,7 @@ Atividade envolvendo as variaveis de letra e numero
   printf("Periodo: \n");
   scanf("%d", &periodo);
   fflush(stdin);
-  
+
   printf("Disciplina: \n");
   fgets(disciplina,100,stdin);
 
@@ -47,12 +45,16 @@ Atividade envolvendo as variaveis de letra e numero
   scanf("%f", &mensalidades);
 
 
-
- return 0;
-
-
-   
-
-   
-
+  //mostrar os dados
+  
+  printf("\n SEUS DADOS \n");
+  printf("Nome: %s\n",nome);
+  printf("Idade: %d\n", num);
+  printf("Matricula: %s\n",matri);
+  printf("Endereco:  %s\n", endereco);
+  printf("Curso: %s\n", curso);
+  printf("Periodo: %d\n", periodo);
+  printf("Disciplina: %s\n", disciplina);
+  printf("Mensalidade: %d\n", mensalidades);
+ return  0;
 }
